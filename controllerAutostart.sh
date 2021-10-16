@@ -1,5 +1,4 @@
 #!/bin/bash
 sleep 4
-antimicrox
-xbindkeys
+antimicrox --tray --profile "$HOME/AntiMicro/gamecontroller.amgp"
 onboard
