@@ -1,0 +1,16 @@
+[Desktop Action run-in-tray]
+Exec=antimicrox --tray
+Name=Open in system tray only
+
+[Desktop Entry]
+Actions=run-in-tray;
+Categories=Qt;Utility;
+Comment=Use a gamepad to control a variety of programs
+Exec=antimicrox %f
+Icon=io.github.antimicrox.antimicrox
+Keywords=game;controller;keyboard;joystick;mouse;
+MimeType=application/x-amgp;
+Name=AntiMicroX
+StartupNotify=true
+Terminal=false
+Type=Application
